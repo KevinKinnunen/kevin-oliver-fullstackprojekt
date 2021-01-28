@@ -43,7 +43,7 @@ particlesJS("particles-js", {
       anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
     },
     size: {
-      value: 3.51164387345227,
+      value: 2.51164387345227,
       random: true,
       anim: { enable: true, speed: 20, size_min: 0.1, sync: false }
     },
@@ -76,7 +76,7 @@ particlesJS("particles-js", {
       grab: { distance: 0, line_linked: { opacity: 0 } },
       bubble: {
         distance: 227.77222777222775,
-        size: 5.984015984015985,
+        size: 1.984015984015985,
         duration: 2,
         opacity: 8,
         speed: 3
