@@ -4174,7 +4174,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -7787,6 +7787,14 @@ button.bg-dark:focus {
 
 .fixed-bottom {
   position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.absolute-bottom {
+  position:absolute;
   right: 0;
   bottom: 0;
   left: 0;
