@@ -7785,6 +7785,14 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
+.absolute-top {
+  position: absolute;
+  top: -15;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .fixed-bottom {
   position: fixed;
   right: 0;

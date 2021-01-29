@@ -1,5 +1,5 @@
 .pricing .box {
-    padding: 40px 20px;
+    padding: 10% 5%;
     text-align: center;
     border-radius: 8px;
     position: relative;
@@ -9,19 +9,20 @@
   }
   
   .pricing .box h3 {
+    font-family: norse;
     font-weight: 400;
     padding: 15px;
-    font-size: 18px;
+    font-size: 38px;
     text-transform: uppercase;
     font-weight: 600;
     color: #000000;
   }
   
   .pricing .box h4 {
-    font-size: 42px;
-    color: #2487ce;
+    font-size: 50px;
+    color: #000000;
     font-weight: 500;
-    font-family: "Open Sans", sans-serif;
+    font-family: Norse;
     margin-bottom: 20px;
   }
   
@@ -32,7 +33,7 @@
   }
   
   .pricing .box h4 span {
-    color: #bababa;
+    color: #383737;
     font-size: 16px;
     font-weight: 300;
   }
@@ -66,16 +67,16 @@
     border-radius: 4px;
     color: rgb(0, 0, 0);
     transition: none;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 400;
-    font-family: "Raleway", sans-serif;
+    font-family: Norse;
     font-weight: 600;
     transition: 0.3s;
-    border: 2px solid #000000;
+    border: 2px solid #383737;
   }
   
   .pricing .box .btn-buy:hover {
-    background: #000000;
+    background: #383737;
     color: #fff;
   }
   
@@ -99,5 +100,5 @@
   
   .pricing .featured .btn-buy:hover {
     background: #fff;
-    color: #2487ce;
+    color: #0e0e0e;
   }

@@ -26,7 +26,7 @@ canvas {
 
 
 .site-content {
-  font-family: "Raleway", sans-serif;
+  font-family: norse;
   color: black;
   background-color:#D5D5D5;
   width: 100%;
@@ -44,7 +44,7 @@ canvas {
 }
 
 .menu-icon {
-  background-image: url(/logo.png);
+
   height: 30px;
   width: 30px;
   position: fixed;
@@ -110,20 +110,7 @@ canvas {
   transition: opacity 0.2s ease, transform 0.3s ease;
   margin-right: 25px;
 }
-.nav__list-item:before {
-  content: "";
-  position: absolute;
-  background: #000000;
-  width: 20px;
-  height: 1px;
-  top: 100%;
-  transform: translate(0%, 0%);
-  transition: all 0.3s ease;
-  z-index: -1;
-}
-.nav__list-item:hover:before {
-  width: 100%;
-}
+  
 
 body.nav-active .menu-icon__line {
   background-color: #000;
