@@ -29,7 +29,7 @@ const app = (() => {
 
 particlesJS("particles-js", {
   particles: {
-    number: { value: 100, density: { enable: true, value_area: 600 } },
+    number: { value: 100, density: { enable: true, value_area: 1000 } },
     color: { value: ["#E1E1E1","#FFFFFF","#D6D6D6","#C0C0C0","#A1A1A1"]},
     shape: {
       type: "circle",
