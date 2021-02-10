@@ -1,13 +1,4 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
-}
-
-canvas {
-    display: block;
-    vertical-align: bottom;
-  } /* ---- particles.js container ---- */
-  
-  #particles-js {
+    #particles-js {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -26,22 +17,56 @@ canvas {
 
 
 .site-content {
-  font-family: norse;
-  color: black;
-  background-color:#D5D5D5;
+  background-image: linear-gradient(to bottom, #f4f4f4, #f1f1f1, #efefef, #ececec, #eaeaea, #ebebeb, #ececec, #ededed, #f1f1f1, #f6f6f6, #fafafa, #ffffff);
   width: 100%;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
-  align-items: center;
+  font-family:arial;
   justify-content: center;
+  
 }
-.site-content__headline {
-  font-weight: 200;
-  color: #181818;
-  font-size: calc(2vw + 10px);
+
+.site-content-text {
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  
 }
+
+.lihome:hover {
+  transition:0.25s ease-in-out;
+
+  font-size:30px;
+}
+
+.lihome {
+  
+  transition:0.25s ease-in-out;
+}
+
+
+.lipricing:hover {
+  
+  font-size:30px;
+  
+}
+.lipricing {
+  transition:0.25s ease-in-out;
+}
+
+
+.licontacts:hover {
+  color:#4f2424;
+  font-size:30px;
+  
+}
+.licontacts {
+  transition:0.25s ease-in-out;
+}
+
+
+
 
 .menu-icon {
 
@@ -57,7 +82,7 @@ canvas {
   height: 2px;
   width: 30px;
   display: block;
-  background-color: black;
+  background-color: #7C2020;
   margin-bottom: 4px;
   transition: transform 0.2s ease, background-color 0.5s ease;
 }
@@ -70,6 +95,8 @@ canvas {
 }
 
 .nav {
+  
+  font-family: norse;
   position: fixed;
   z-index: 1;
 }
@@ -84,7 +111,7 @@ canvas {
   transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-  background-image: radial-gradient(circle, #411919, #431919, #451919, #471818, #491818, #481818, #481818, #471818, #431919, #3f1919, #3b1a1a, #371a1a);
+  background-image: linear-gradient(to bottom, #601e1e, #5f1d1d, #5f1d1c, #5e1c1c, #5d1b1b, #5d1b1b, #5d1c1c, #5d1c1c, #5d1d1d, #5e1e1e, #5e1f1f, #5e2020);
   transition-delay: 0s;
     
 }
@@ -113,7 +140,8 @@ canvas {
   
 
 body.nav-active .menu-icon__line {
-  background-color: #000;
+  background-color: white;
+  ;
   transform: translateX(0px) rotate(-45deg);
 }
 body.nav-active .menu-icon__line-left {
@@ -169,12 +197,14 @@ body.nav-active .nav__list-item:nth-child(4) {
   background: #cecece;
   color: rgb(0, 0, 0);
   text-decoration: none;
+  font-family: Norse;
 }
 
 
-.about .content h3 {
+.about .content h2 {
   font-weight: 600;
   font-size: 26px;
+  font-family: Norse;
 }
 
 .about .content ul {

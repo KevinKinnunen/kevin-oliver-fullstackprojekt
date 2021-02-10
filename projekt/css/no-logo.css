@@ -25,23 +25,53 @@ h1, h2, h3, h4, h5, h6 {
   
   
   
-  .site-content {
-    font-family: norse;
-    color: black;
-    background-color:#D5D5D5;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .site-content__headline {
-    font-weight: 200;
-    color: #181818;
-    font-size: calc(2vw + 10px);
-  }
+    .site-content {
+      background-image: linear-gradient(to bottom, #f4f4f4, #f1f1f1, #efefef, #ececec, #eaeaea, #ebebeb, #ececec, #ededed, #f1f1f1, #f6f6f6, #fafafa, #ffffff);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      font-family:arial;
+      justify-content: center;
+      
+    }
+    
+    .site-content-text {
+      font-family: arial;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .lihome:hover {
+      transition:0.25s ease-in-out;
+    
+      font-size:30px;
+    }
+    
+    .lihome {
+      transition:0.25s ease-in-out;
+    }
+    
+    
+    .lipricing:hover {
+      
+      font-size:30px;
+      
+    }
+    .lipricing {
+      transition:0.25s ease-in-out;
+    }
+    
+    
+    .licontacts:hover {
+      color:#4f2424;
+      font-size:30px;
+      
+    }
+    .licontacts {
+      transition:0.25s ease-in-out;
+    }
+    
+    
   
   .menu-icon {
     background-image: url(/logo.png);
