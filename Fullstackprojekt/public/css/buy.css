@@ -1,0 +1,68 @@
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-payment{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#item-options {
+  width: 80%;
+  height: 55px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 500;
+  box-shadow: none;
+  border: 1px solid #ced6e0;
+  color: #383737;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#item-options:hover {
+  font-size: 150%;
+  border-color: #383737;
+  background-color: #383737;
+  color: #fff;
+  border-radius: 1%;
+  border-color: white;
+}
+
+@media (min-width: 600px) {
+  #item-options{
+  font-size: 16px;
+  }
+  #item-options:hover{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1366px){
+  #item-options{
+    font-size: 20px;
+    }
+    #item-options:hover{
+      font-size: 22px;
+    }
+}
+
