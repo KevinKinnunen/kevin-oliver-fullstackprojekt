@@ -16,11 +16,11 @@ body {
 }
 
 a {
-  color: #2487ce;
+  color: #38ce24;
 }
 
 a:hover {
-  color: #469fdf;
+  color: #46df46;
   text-decoration: none;
 }
 
@@ -453,7 +453,7 @@ h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #307fad;
+  color: #30ad30;
 }
 
 #hero h2 {
@@ -472,11 +472,11 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #1f8016;
 }
 
 #hero .btn-get-started:hover {
-  background: #3194db;
+  background: #27b933;
 }
 
 #hero .icon-boxes {
@@ -518,7 +518,7 @@ h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: #24ce57;
 }
 
 #hero .icon-box:hover {
@@ -526,7 +526,7 @@ h6 {
 }
 
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  color: #168f2a;
 }
 
 @media (min-width: 1024px) {
@@ -578,7 +578,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #36a3e2;
+  color: #36e24d;
 }
 
 .section-title p {
@@ -761,7 +761,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #47ff47;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -870,12 +870,12 @@ section {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #126524;
+  color: #1cb83e;
 }
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #2487ce;
+  color: #21b61c;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -895,7 +895,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #124265;
+  color: #18b31f;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -935,7 +935,7 @@ section {
   font-weight: 400;
   font-weight: 600;
   transition: 0.3s;
-  border: 2px solid #2487ce;
+  border: 2px solid #24ce32;
 }
 
 .pricing .box .btn-buy:hover {
@@ -944,7 +944,7 @@ section {
 }
 
 .pricing .featured {
-  background: #2487ce;
+  background: #188818;
 }
 
 .pricing .featured h3,
@@ -1027,7 +1027,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #87c1ea;
+  color: #87ea94;
 }
 
 .faq .faq-list .icon-show,
@@ -1052,7 +1052,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #2487ce;
+  color: #24ce40;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1078,22 +1078,22 @@ section {
 }
 
 .contact {
-  background: #fff;
+  background: rgb(148, 41, 41);
   height: 1000px;
 }
 
 .contact .section-title p {
-  color: #505050;
+  color: #4ddd40;
 }
 
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: rgb(148, 41, 41);
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #24ce24;
   float: left;
   width: 44px;
   height: 44px;
@@ -1110,14 +1110,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #124265;
+  color: #1f9b1f;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #505050;
+  color: #5dda47;
 }
 
 .contact .info .email,
@@ -1128,13 +1128,13 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #2487ce;
+  background: #24ce2d;
   color: #fff;
 }
 
 .contact .js-email-form {
   width: 100%;
-  background: #fff;
+  background: rgb(148, 41, 41);
 }
 
 .contact .js-email-form .form-group {
@@ -1201,7 +1201,7 @@ section {
 
 .contact .js-email-form input:focus,
 .contact .js-email-form textarea:focus {
-  border-color: #2487ce;
+  border-color: #24ce57;
 }
 
 .contact .js-email-form input {
@@ -1213,7 +1213,7 @@ section {
 }
 
 .contact .js-email-form button[type="submit"] {
-  background: #2487ce;
+  background: #24ce32;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1222,7 +1222,7 @@ section {
 }
 
 .contact .js-email-form button[type="submit"]:hover {
-  background: #3194db;
+  background: #31db3a;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1337,7 +1337,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #2487ce;
+  background: #24ce7f;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1345,7 +1345,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #3194db;
+  background: #37db31;
 }
 
 #footer .credits {
@@ -1357,7 +1357,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  background: #24ce3b;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1370,7 +1370,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3194db;
+  background: #339e25;
   color: #fff;
   text-decoration: none;
 }
