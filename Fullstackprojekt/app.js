@@ -50,6 +50,8 @@ const helmet = require('helmet')
 const morgan = require('morgan')
 const cors = require('cors')
 const bcrypt = require('bcryptjs');
+const databaseModule = require("./databaseModule");
+const UserModel = require("./UserModel");
 
 // Environment variables for sending mail
 const PORT = process.env.PORT || 5000;
@@ -83,9 +85,29 @@ app.use('/img', express.static(__dirname + 'public/img'))
 app.set('views', './views')
 app.set('view engine', 'ejs')
 
+
 // Render index
-app.get('', (req, res) => {
-  res.render('index')
+app.get('/', async (req, res) => {
+  const names = await UserModel.getPerson()
+  res.render('index', {nameList: names})
+})
+
+app.post("/register", async function (req, res){
+  const hashedPassword = await bcrypt.hash(req.body.psw, 10);
+  await UserModel.saveUser(req.body.uname, hashedPassword);
+  res.redirect("/");
+})
+
+app.post("/login", async function (req, res){
+  const user = UserModel.getUser(req.body.uname)
+  await bcrypt.compare(req.body.psw, user.password, (err, success) => {
+    if (err) {
+      console.log(err);
+    }
+    if (success) console.log("Success");
+    else  console.log("Fail");
+  });
+  res.redirect("/");
 })
 
 // Sending mails using gmail api

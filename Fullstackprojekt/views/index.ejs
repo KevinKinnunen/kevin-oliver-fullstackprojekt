@@ -69,6 +69,50 @@
     </div>
   </section><!-- End Hero -->
 
+  <!-- Register -->
+  <form action="/register" method="POST">
+    <div class="container">
+      <h1>Register</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+  
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+  
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+  
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+
+  </form>
+
+  <!-- Login -->  
+
+  <form action="/login" method="post">
+    
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+    </div>   
+  </form>
+
+<!-- Niklas Hjälp! -->
+
+<% for( let i = 0; i < nameList.length; i++ ) { %>
+  <p><%- nameList[i].name %> </p>
+<% } %>
+
   <main id="main">
 
     <!-- ======= About Section ======= -->
